@@ -4,8 +4,8 @@ import animation from './animation';
 
 export const FONT = {
   FAMILY: {
-    KOREAN: "'AppleSDGothicNeo', 'Noto Sans KR', sans-serif",
-    ENGLISH: "'Open Sans', sans-serif",
+    KOREAN: 'AppleSDGothicNeo, Noto Sans KR, sans-serif',
+    ENGLISH: 'Open Sans, sans-serif',
   },
   STYLE: {
     BASE: 'normal',
