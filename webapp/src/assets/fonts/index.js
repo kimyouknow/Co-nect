@@ -12,21 +12,25 @@ export default css`
   @font-face {
     font-family: 'AppleSDGothicNeo';
     src: local('AppleSDGothicNeo'), url(${AppleSDGothicNeo_Bold}) format('woff');
+    font-display: swap;
     font-weight: 700;
   }
   @font-face {
     font-family: 'AppleSDGothicNeo';
     src: local('AppleSDGothicNeo'), url(${AppleSDGothicNeo_Regular}) format('woff');
+    font-display: swap;
     font-weight: 400;
   }
   @font-face {
     font-family: 'Noto Sans KR';
     src: local('Noto Sans KR'), url(${NotoSansKR_Bold}) format('woff');
+    font-display: swap;
     font-weight: 700;
   }
   @font-face {
     font-family: 'Noto Sans KR';
     src: local('Noto Sans KR'), url(${NotoSansKR_Regular}) format('woff');
+    font-display: swap;
     font-weight: 400;
   }
 
@@ -34,11 +38,13 @@ export default css`
   @font-face {
     font-family: 'Open Sans';
     src: local('Open Sans'), url(${OpenSans_Bold}) format('woff');
+    font-display: swap;
     font-weight: 700;
   }
   @font-face {
     font-family: 'Open Sans';
     src: local('Open Sans'), url(${OpenSans_Regular}) format('woff');
+    font-display: swap;
     font-weight: 400;
   }
 `;
