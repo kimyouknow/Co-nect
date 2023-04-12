@@ -7,7 +7,7 @@ const GlobalStyles = createGlobalStyle`
 ${Normalize}
 ${fonts}
 * {
-  font-family: "AppleSDGothicNeo", 'Noto Sans KR', sans-serif;
+  font-family: "AppleSDGothicNeo", 'Noto Sans KR', "Open Sans", sans-serif;
   box-sizing: border-box;
   margin: 0;
 }
