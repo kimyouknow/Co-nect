@@ -1,12 +1,13 @@
-import React from 'react';
-import SignUp from 'pages/SignUp';
-import { ROUTE } from 'constant/route.constant';
-import UserBoard from 'pages/UserBoard';
-import TeamBoard from 'pages/TeamBoard';
-import UserPost from 'pages/UserPost';
-import TeamPost from 'pages/TeamPost';
+import React, { lazy } from 'react';
 import PublicRoute from 'hoc/PublicRoute';
-import LoginRoute from './LoginRoute';
+import { ROUTE } from 'constant/route.constant';
+
+const SignUp = lazy(() => import('pages/SignUp'));
+const UserBoard = lazy(() => import('pages/UserBoard'));
+const TeamBoard = lazy(() => import('pages/TeamBoard'));
+const UserPost = lazy(() => import('pages/UserPost'));
+const TeamPost = lazy(() => import('pages/TeamPost'));
+const LoginRoute = lazy(() => import('./LoginRoute'));
 
 const routesWithHeader = [
   {

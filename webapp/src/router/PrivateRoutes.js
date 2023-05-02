@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { lazy } from 'react';
 import { ROUTE } from 'constant/route.constant';
-import EditUserProfile from 'pages/EditUserProfile';
-import MyList from 'pages/MyList';
-import NewTeamPost from 'pages/NewTeamPost';
-import MyPost from 'pages/MyPost';
-import EditTeamPost from 'pages/EditTeamPost';
 import PrivateRoute from 'hoc/PrivateRoute';
+
+const EditUserProfile = lazy(() => import('pages/EditUserProfile'));
+const MyList = lazy(() => import('pages/MyList'));
+const NewTeamPost = lazy(() => import('pages/NewTeamPost'));
+const MyPost = lazy(() => import('pages/MyPost'));
+const EditTeamPost = lazy(() => import('pages/EditTeamPost'));
 
 const routes = [
   {
